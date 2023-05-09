@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+    90deg,
+    rgba(240, 244, 255, 1) 0%,
+    rgba(165, 182, 238, 1) 100%
+  );
+  font-family: "Pretendard-Regular";
+  height: 100vh;
+  gap: 60px;
+}
+
+.logo {
+  width: 244px;
+}
+
+footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8596bf;
+}
+
+.container {
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  border-radius: 16px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  padding-top: 48px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.line {
+  margin: 23px 44px auto 44px;
+  display: inline-block;
+  width: 312px;
+  height: 1px;
+  background: #3d538a;
+}
+
+.sub-container {
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.sub-container input {
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(314.28deg, #304577 0%, #4c65a0 83%);
+  border: 1px solid #354971;
+  border-radius: 4px;
+  position: relative;
+}
+
+/* .sub-container::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 1px;
+  top: 39px;
+  background: #354971;
+  z-index: 1;
+}
+.sub-container::before,
+.sub-container::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 1px;
+  top: 39px;
+  background: #354971;
+  z-index: 1;
+}
+
+.sub-container input::before {
+  left: 0;
+}
+
+.sub-container input::after {
+  right: 0;
+} */
+label {
+  position: absolute;
+  top: -20px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #a5b6ee;
+}
+
+.btn-container {
+  padding: 40px;
+  text-align: center;
+}
+button {
+  border: none;
+  width: 112px;
+  height: 48px;
+  background: #324577;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+
+  color: #617199;
+}
+
+button:checked {
+  background: #5180ff;
+}

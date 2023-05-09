@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>타이머</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./images/weniv-logo.svg" alt="로고사진" />
+    </header>
+    <main>
+      <div class="container">
+        <h1>TIMER</h1>
+        <span class="line"></span>
+        <div class="sub-container">
+          <label for="hrs-input">HRS</label>
+          <input id="hrs-input" class="hrs-input" type="number" />
+          <span class="circle"> </span>
+          <label for="min-input">MIN</label>
+          <input id="min-input" class="min-input" type="number" />
+          <label for="sec-input">SEC</label>
+          <input id="sec-input" class="sec-input" type="number" />
+        </div>
+        <div class="btn-container">
+          <button type="button">START</button>
+          <button type="reset">RESET</button>
+        </div>
+      </div>
+    </main>
+    <footer>ⓒ WENIV Corp</footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
